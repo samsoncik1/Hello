@@ -1,2 +1,10 @@
 print("hello world!!!")
-#test
+
+def calc(plus, minus):
+    plus = int(input())
+    minus = int(input())
+    rez = plus-minus
+    print(rez)
+    return(rez)
+
+calc(10,5)
